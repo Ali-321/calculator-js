@@ -1,21 +1,40 @@
+body{
+    background-color:black;
+}
+
+head{
+    background-color: black;
+}
 .calculator{
     text-align: center;
     margin: 0 auto;
-    padding-top: 200px;
+    padding-top: 50px;
     width: 400px;
-    background-color: silver;
+    background-color: black;
 }
 
 .calculator-screen{
     width: 100%;
     height: 100px;
-    background-color: #252525;
+    background-color: #38520473;
     color: #fff;
     text-align: right;
     font-size: 36px;
     border: none;
     padding: 0 20px;
     box-sizing: border-box;
+}
+
+.calculator-histori-screen{
+    width: 100%;
+    height: 100px;
+    border-color: rgb(20, 26, 18);
+    background-color: #252525;
+    color: #fff;
+    text-align: right;
+    font-size: 36px;
+    padding: 0 20px;
+    box-sizing: border-box
 }
 
 .calculator-keys{
@@ -28,10 +47,10 @@
 
 button{
    height: 80px;
-   background-color: gray;
-   border: 1px solid black;
+   background-color: rgba(111, 168, 35, 0.644);
+   border: 1px solid rgb(217, 243, 144);
    font-size: 32px;
-   color: #fff;
+   color: rgb(255, 233, 107);
    width: 25%;
    outline: none;
 }
@@ -41,13 +60,13 @@ button{
 }
 
 .operator, .equal-sign{
-    background-color: orange;
+    background-color:rgba(161, 185, 21, 0.212);
 }
 
 button:hover{
-    background-color: darkgray;
+    background-color: rgb(82, 145, 32);
 }
 
 .operator:hover, .equal-sign:hover{
-    background-color: darkorange;
+    background-color: rgb(91, 160, 27);
 }
